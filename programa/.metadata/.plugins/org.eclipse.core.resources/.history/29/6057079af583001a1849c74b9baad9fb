@@ -1,0 +1,25 @@
+package projectAso;
+
+import javax.swing.JFrame;
+
+public class WindowStrat {
+	
+	public WindowStrat() {
+		
+	}
+	public static void main(String[] args) {
+		
+		miMarco marco = new miMarco();
+		marco.setVisible(true);
+		marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}
+class miMarco extends JFrame{
+	
+	public miMarco() {
+		//setSize(550, 650);
+		//setVisible(true);
+		setBounds(450,100, 650, 650);
+	}
+	
+}

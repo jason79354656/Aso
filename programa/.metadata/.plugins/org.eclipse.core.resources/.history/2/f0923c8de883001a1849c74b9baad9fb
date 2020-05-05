@@ -1,0 +1,21 @@
+package projectAso;
+
+import javax.swing.JFrame;
+
+public class  {
+
+	public static void main(String[] args) {
+		miMarco marco = new miMarco();
+		marco.setVisible(true);
+	}
+
+class miMarco extends JFrame{
+		
+		public miMarco() {
+			setSize(550, 650);
+			//setVisible(true);
+		
+		}
+		
+	}
+}
