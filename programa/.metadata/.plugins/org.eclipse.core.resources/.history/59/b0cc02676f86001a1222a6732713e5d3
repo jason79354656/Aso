@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	
-<?import javafx.scene.layout.BorderPane?>
-	
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SampleController">
-	<<Button fx: id = "button1" text = "¡Haz clic en mí!" onAction = "reactToClick ()" />
-</BorderPane>
